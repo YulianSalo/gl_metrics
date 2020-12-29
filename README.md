@@ -4,15 +4,15 @@ You need to have Python3, Python3-pip, Dokcer(optional) installed  if you would 
 
 To make it executible use the following commands:
 
-$chmod a+x metrics.py
-$cp metrics.py /bin/metrics
+  $chmod a+x metrics.py
+  $cp metrics.py /bin/metrics
 
 Having completed the steps above use next commands to run it:
 
 CPU metrics:
-$metrics cpu
+  $metrics cpu
 
 Memory metrics:
-$metrics mem
+  $metrics mem
 
 Please, note: Dockerfile includes the steps above.
